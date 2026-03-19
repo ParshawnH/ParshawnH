@@ -1,6 +1,6 @@
 # 💫 About Me
 
-Hi, I'm **Parshawn Haynes** — a sophomore **Data Science and Applied Statistics double major** at **Purdue University**, with a **minor in AI/ML **. I love building AI-powered tools that make analysis faster, clearer, and more actionable. I’m currently exploring **financial data science**, **LLM apps**, and **real-time analytics**.
+Hi, I'm **Parshawn Haynes** — a sophomore **Data Science and Applied Statistics double major** at **Purdue University**, with a ** minor in AI/ML **. I love building AI-powered tools that make analysis faster, clearer, and more actionable. I’m currently exploring **financial data science**, **LLM apps**, and **real-time analytics**.
 
 - 🔎 Seeking **Summer 2026** data / ML / quant internships  
 - 🎯 Interests: AI for finance, data engineering, compliance tooling, dashboards
