@@ -1,25 +1,30 @@
 # 💫 About Me
 
-Hi, I'm **Parshawn Haynes** — a sophomore **Data Science and Applied Statistics double major** at **Purdue University**, with a ** minor in AI/ML **. I love building AI-powered tools that make analysis faster, clearer, and more actionable. I’m currently exploring **financial data science**, **LLM apps**, and **real-time analytics**.
+Hi, I'm **Parshawn Haynes** — a **junior** at **Purdue University** pursuing a **double major in Data Science and Applied Statistics** with a **minor in AI/ML** (graduating May 2028). I build AI-powered tools that make analysis faster, clearer, and more actionable, with a focus on **LLM evaluation**, **financial data science**, and **real-time analytics**.
 
-- 🔎 Seeking **Summer 2026** data / ML / quant internships  
-- 🎯 Interests: AI for finance, data engineering, compliance tooling, dashboards
+- 🔎 Seeking **Summer 2026** data science / ML / quant internships
+- 🎯 Interests: AI for finance, LLM evaluation, data engineering, compliance tooling
+- 🧠 Founding team member at **ACS** — AI product & evaluation
 
 ---
 
 ## 🧪 Featured Projects
 
-**🧠 AnalystMate** — LLM-Powered Compliance Assistant for analysts & consultants  
-Live: https://analystmate.netlify.app/ • Repo: https://github.com/avirmani2024/analystmate  
-Brief: Extracts and summarizes risk/compliance insights from filings to speed due diligence.
+**🤖 RecruiterFit AI** — Hybrid Resume-to-Job Fit Scorer
+Repo: https://github.com/ParshawnH/recruiterfitAI
+Hybrid NLP pipeline that scores resume-JD fit by blending TF-IDF keyword overlap with `all-MiniLM-L6-v2` transformer embeddings. FastAPI + React, with an evaluation notebook validating the ensemble weighting.
 
-**🧑‍💻 TradeSocial** — Personalized AI Stock Prediction Platform  
-Live: https://www.tradesocialinsights.com/  
-Brief: Signal generation and narrative summaries from social/market data. *(Code private due to productization.)*
+**🧠 AnalystMate AI** — Agentic RAG for SEC 10-K Compliance Analysis
+Live: https://analystmate.ai/ • Repo: https://github.com/avirmani2024/analystmate
+Production retrieval-augmented system that extracts and summarizes risk and compliance insights from SEC filings, with citation grounding and hallucination mitigation to speed due diligence. Built with [@avirmani2024](https://github.com/avirmani2024).
 
-**🧑‍💼 FBA Profit Scout** — Wholesale→Amazon Matching & Profit Calculator  
-Live: https://www.fba-scout.profitize.org/ • Repo: https://github.com/avirmani2024/Profit-Model  
-Brief: Automates matching wholesaler catalogs to Amazon listings, estimates fees/margins, and flags best SKUs.
+**📈 TradeSocial Insights** — AI Stock Prediction Platform
+Live: https://www.tradesocialinsights.com/
+Signal generation and narrative summaries from social and market data, built on a 395,000+ prediction evaluation pipeline. *(Code private due to productization.)*
+
+**🛒 FBA Profit Scout** — Wholesale-to-Amazon Matching & Profit Calculator
+Live: https://www.fba-scout.profitize.org/ • Repo: https://github.com/avirmani2024/Profit-Model
+Automates matching wholesaler catalogs to Amazon listings, estimates fees and margins, and flags the best SKUs. Built with [@avirmani2024](https://github.com/avirmani2024).
 
 ---
 
@@ -32,20 +37,18 @@ Brief: Automates matching wholesaler catalogs to Amazon listings, estimates fees
 
 ## 💻 Tech Stack
 
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7.svg?style=for-the-badge&logo=render&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Anaconda](https://img.shields.io/badge/Anaconda-44A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)
+![R](https://img.shields.io/badge/r-276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/numpy-013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
-![R](https://img.shields.io/badge/r-276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
-![Java](https://img.shields.io/badge/java-ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=000000)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571.svg?style=for-the-badge&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A.svg?style=for-the-badge&logo=react&logoColor=61DAFB)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
 ![Power BI](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=000000)
-![OpenAPI](https://img.shields.io/badge/openapiinitiative-000000.svg?style=for-the-badge&logo=openapiinitiative&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
 ---
 
@@ -53,19 +56,4 @@ Brief: Automates matching wholesaler catalogs to Amazon listings, estimates fees
 
 ![](https://github-readme-stats.vercel.app/api?username=ParshawnH&theme=merko&hide_border=false&show_icons=true&count_private=true)
 <br/>
-![](https://nirzak-streak-stats.vercel.app/?user=ParshawnH&theme=merko&hide_border=false)
-<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=ParshawnH&theme=merko&hide_border=false&layout=compact&langs_count=8)
-
----
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=ParshawnH&theme=radical&no-frame=false&no-bg=false&margin-w=4)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
----
-[![](https://visitcount.itsvg.in/api?id=ParshawnH&icon=0&color=0)](https://visitcount.itsvg.in)
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
