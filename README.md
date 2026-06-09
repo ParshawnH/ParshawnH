@@ -5,20 +5,25 @@ Hi, I'm **Parshawn Haynes** — a **junior** at **Purdue University** pursuing a
 - 🧠 Founding team member at **ACS** — AI product & evaluation
 ---
 ## 🧪 Featured Projects
-**🤖 RecruiterFit AI** — Hybrid Resume-to-Job Fit Scorer
-Repo: https://github.com/ParshawnH/recruiterfitAI
+
+**🤖 RecruiterFit AI** — Hybrid Resume-to-Job Fit Scorer<br>
+Repo: https://github.com/ParshawnH/recruiterfitAI<br>
 Hybrid NLP pipeline that scores resume-JD fit by blending TF-IDF keyword overlap with `all-MiniLM-L6-v2` transformer embeddings. FastAPI + React, with an evaluation notebook validating the ensemble weighting.
-**🧠 AnalystMate AI** — Agentic RAG for SEC 10-K Compliance Analysis
-Live: https://analystmate.ai/ • Repo: https://github.com/avirmani2024/analystmate
+
+**🧠 AnalystMate AI** — Agentic RAG for SEC 10-K Compliance Analysis<br>
+Live: https://analystmate.ai/ • Repo: https://github.com/avirmani2024/analystmate<br>
 Production retrieval-augmented system that extracts and summarizes risk and compliance insights from SEC filings, with citation grounding and hallucination mitigation to speed due diligence. Built with [@avirmani2024](https://github.com/avirmani2024).
-**🔬 MiniTransformer Lab** — Financial NLP Transformer Benchmarking
-Repo: https://github.com/ParshawnH/MiniTransformer-Lab
+
+**🔬 MiniTransformer Lab** — Financial NLP Transformer Benchmarking<br>
+Repo: https://github.com/ParshawnH/MiniTransformer-Lab<br>
 Benchmarks a fine-tuned FinBERT against a TF-IDF + Logistic Regression baseline for financial sentiment, with per-class error analysis and latency/throughput profiling. Built on AMD Instinct MI300X GPUs (ROCm) via the AMD AI Developer Program.
-**📈 TradeSocial Insights** — AI Stock Prediction Platform
-Live: https://www.tradesocialinsights.com/
+
+**📈 TradeSocial Insights** — AI Stock Prediction Platform<br>
+Live: https://www.tradesocialinsights.com/<br>
 Signal generation and narrative summaries from social and market data, built on a 395,000+ prediction evaluation pipeline. *(Code private due to productization.)*
-**🛒 FBA Profit Scout** — Wholesale-to-Amazon Matching & Profit Calculator
-Live: https://www.fba-scout.profitize.org/ • Repo: https://github.com/avirmani2024/Profit-Model
+
+**🛒 FBA Profit Scout** — Wholesale-to-Amazon Matching & Profit Calculator<br>
+Live: https://www.fba-scout.profitize.org/ • Repo: https://github.com/avirmani2024/Profit-Model<br>
 Automates matching wholesaler catalogs to Amazon listings, estimates fees and margins, and flags the best SKUs. Built with [@avirmani2024](https://github.com/avirmani2024).
 ---
 ## 🌐 Socials
