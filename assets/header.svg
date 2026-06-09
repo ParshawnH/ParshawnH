@@ -1,0 +1,84 @@
+<svg width="880" height="330" viewBox="0 0 880 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Parshawn Haynes — eval suite passing">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1320"/>
+      <stop offset="100%" stop-color="#101C30"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFB454"/>
+      <stop offset="100%" stop-color="#39D3BB"/>
+    </linearGradient>
+    <clipPath id="typeClip">
+      <rect x="64" y="74" width="0" height="22">
+        <animate attributeName="width" from="0" to="540" begin="0.4s" dur="1.6s" fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <!-- canvas -->
+  <rect width="880" height="330" rx="14" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="879" height="329" rx="13.5" fill="none" stroke="#1F2A3D"/>
+
+  <!-- faint plot lines in the background -->
+  <g stroke="#1F2A3D" stroke-width="1" opacity="0.55">
+    <line x1="40" y1="250" x2="840" y2="250"/>
+    <line x1="40" y1="200" x2="840" y2="200" opacity="0.4"/>
+  </g>
+  <polyline points="560,238 600,226 630,232 668,210 700,216 740,192 775,198 812,172"
+            fill="none" stroke="#39D3BB" stroke-width="2" stroke-linecap="round" opacity="0">
+    <animate attributeName="opacity" from="0" to="0.5" begin="4.6s" dur="0.8s" fill="freeze"/>
+  </polyline>
+
+  <!-- terminal chrome -->
+  <circle cx="48" cy="42" r="6" fill="#FF5F56"/>
+  <circle cx="68" cy="42" r="6" fill="#FFBD2E"/>
+  <circle cx="88" cy="42" r="6" fill="#27C93F"/>
+  <text x="440" y="46" text-anchor="middle" font-family="ui-monospace, 'Cascadia Code', Menlo, Consolas, monospace" font-size="12" fill="#5B6B82">evals — parshawn@purdue — 88×33</text>
+  <line x1="32" y1="58" x2="848" y2="58" stroke="#1F2A3D"/>
+
+  <!-- command line (typed) -->
+  <g font-family="ui-monospace, 'Cascadia Code', Menlo, Consolas, monospace" font-size="15">
+    <text x="40" y="90" fill="#39D3BB">$</text>
+    <g clip-path="url(#typeClip)">
+      <text x="64" y="90" fill="#E6EDF3">python -m evals run --suite parshawn_haynes</text>
+    </g>
+    <!-- cursor -->
+    <rect x="64" y="76" width="9" height="18" fill="#FFB454">
+      <animate attributeName="x" from="64" to="464" begin="0.4s" dur="1.6s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;0;1" dur="1s" begin="2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- results -->
+  <g font-family="ui-monospace, 'Cascadia Code', Menlo, Consolas, monospace" font-size="14">
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="2.3s" dur="0.3s" fill="freeze"/>
+      <text x="40" y="122" fill="#27C93F">[PASS]</text>
+      <text x="104" y="122" fill="#C8D3E0">llm_evaluation</text>
+      <text x="300" y="122" fill="#5B6B82">benchmarks · hallucination detection · eval harnesses</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="2.9s" dur="0.3s" fill="freeze"/>
+      <text x="40" y="148" fill="#27C93F">[PASS]</text>
+      <text x="104" y="148" fill="#C8D3E0">financial_ml</text>
+      <text x="300" y="148" fill="#5B6B82">signals · risk · market NLP</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="3.5s" dur="0.3s" fill="freeze"/>
+      <text x="40" y="174" fill="#27C93F">[PASS]</text>
+      <text x="104" y="174" fill="#C8D3E0">agentic_systems</text>
+      <text x="300" y="174" fill="#5B6B82">document pipelines · tool use · production apps</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="4.1s" dur="0.4s" fill="freeze"/>
+      <text x="40" y="204" fill="#FFB454">====== 3 passed, 0 hallucinated in 0.02s ======</text>
+    </g>
+  </g>
+
+  <!-- name block -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="4.5s" dur="0.6s" fill="freeze"/>
+    <text x="40" y="272" font-family="ui-monospace, 'Cascadia Code', Menlo, Consolas, monospace" font-size="44" font-weight="700" fill="#E6EDF3" letter-spacing="1">PARSHAWN<tspan fill="url(#accent)"> HAYNES</tspan></text>
+    <text x="40" y="300" font-family="ui-monospace, 'Cascadia Code', Menlo, Consolas, monospace" font-size="15" fill="#8FA3BC">data science × applied statistics @ purdue · building &amp; evaluating AI systems</text>
+  </g>
+</svg>
