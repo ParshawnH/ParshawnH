@@ -1,61 +1,76 @@
-# 💫 About Me
-Hi, I'm **Parshawn Haynes** — a **junior** at **Purdue University** pursuing a **double major in Data Science and Applied Statistics** with a **minor in AI/ML** (graduating May 2028). I build AI-powered tools that make analysis faster, clearer, and more actionable, with a focus on **LLM evaluation**, **financial data science**, and **real-time analytics**.
-- 🔎 Seeking **Summer 2026** data science / ML / quant internships
-- 🎯 Interests: AI for finance, LLM evaluation, data engineering, compliance tooling
-- 🧠 Founding team member at **ACS** — AI product & evaluation
+<div align="center">
 
----
+<img src="assets/header.svg" alt="Parshawn Haynes — eval suite passing" width="100%"/>
 
-## 🧪 Featured Projects
+<br/>
 
-**🤖 RecruiterFit AI** — Hybrid Resume-to-Job Fit Scorer<br>
-Repo: https://github.com/ParshawnH/recruiterfitAI<br>
-Hybrid NLP pipeline that scores resume-JD fit by blending TF-IDF keyword overlap with `all-MiniLM-L6-v2` transformer embeddings. FastAPI + React, with an evaluation notebook validating the ensemble weighting.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Parshawn_Haynes-0B1320?style=flat-square&logo=linkedin&logoColor=39D3BB&labelColor=0B1320&color=1F2A3D)](https://www.linkedin.com/in/parshawn-haynes-b79b8a31b/)
+[![Email](https://img.shields.io/badge/Email-haynes84@purdue.edu-0B1320?style=flat-square&logo=gmail&logoColor=FFB454&labelColor=0B1320&color=1F2A3D)](mailto:haynes84@purdue.edu)
+[![Portfolio](https://img.shields.io/badge/Live-analystmate.ai-0B1320?style=flat-square&logo=googlechrome&logoColor=39D3BB&labelColor=0B1320&color=1F2A3D)](https://analystmate.ai/)
 
-**🧠 AnalystMate AI** — Agentic RAG for SEC 10-K Compliance Analysis<br>
-Live: https://analystmate.ai/ • Repo: https://github.com/avirmani2024/analystmate<br>
-Production retrieval-augmented system that extracts and summarizes risk and compliance insights from SEC filings, with citation grounding and hallucination mitigation to speed due diligence. Built with [@avirmani2024](https://github.com/avirmani2024).
+</div>
 
-**🔬 MiniTransformer Lab** — Financial NLP Transformer Benchmarking<br>
-Repo: https://github.com/ParshawnH/MiniTransformer-Lab<br>
-Benchmarks a fine-tuned FinBERT against a TF-IDF + Logistic Regression baseline for financial sentiment, with per-class error analysis and latency/throughput profiling. Built on AMD Instinct MI300X GPUs (ROCm) via the AMD AI Developer Program.
+## `$ cat MODEL_CARD.md`
 
-**📈 TradeSocial Insights** — AI Stock Prediction Platform<br>
-Live: https://www.tradesocialinsights.com/<br>
-Signal generation and narrative summaries from social and market data, built on a 395,000+ prediction evaluation pipeline. *(Code private due to productization.)*
+> I spend my time evaluating models — so here's my own model card.
 
-**🛒 FBA Profit Scout** — Wholesale-to-Amazon Matching & Profit Calculator<br>
-Live: https://www.fba-scout.profitize.org/ • Repo: https://github.com/avirmani2024/Profit-Model<br>
-Automates matching wholesaler catalogs to Amazon listings, estimates fees and margins, and flags the best SKUs. Built with [@avirmani2024](https://github.com/avirmani2024).
+|                  |                                                                                                        |
+| ---------------- | ------------------------------------------------------------------------------------------------------ |
+| **Model**        | `parshawn-haynes` · junior build · stable release **May 2028**                                          |
+| **Architecture** | Data Science × Applied Statistics double major, AI/ML fine-tune — **Purdue University**                 |
+| **Currently**    | GenAI Engineer Intern @ **Protiviti** · **AI4ALL Ignite** Research Fellow · Data Mine Fellow            |
+| **Specialty**    | **LLM evaluation** — benchmarks, hallucination detection, eval harnesses for agentic systems            |
+| **Training data**| SEC 10-K filings · 395K+ market predictions · K-12 handwriting OCR · vehicle telematics · poker tables  |
+| **Known behaviors** | chess, poker, national debate (🇬🇩 Grenada), Diamond in Rocket League                                |
+| **Intended use** | AI for finance · evaluation research · data engineering · compliance tooling                            |
 
----
+## `$ python -m evals run --all`
 
-## 🌐 Socials
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/parshawn-haynes-b79b8a31b/)
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:haynes84@purdue.edu)
+| Eval | Task | Verdict |
+| --- | --- | :---: |
+| **🧠 [AnalystMate AI](https://github.com/avirmani2024/analystmate)** — [live ↗](https://analystmate.ai/) | Agentic SEC 10-K analysis: chunked map-reduce summarization over full filings with citation grounding + hallucination mitigation, async pipeline on the OpenAI API. Co-built with [@avirmani2024](https://github.com/avirmani2024). | 🟢 `PASS` |
+| **🤖 [RecruiterFit AI](https://github.com/ParshawnH/recruiterfitAI)** | Hybrid resume↔JD fit scoring: TF-IDF keyword overlap (30%) ensembled with `all-MiniLM-L6-v2` embeddings (70%), validated in an eval notebook. FastAPI + React. | 🟢 `PASS` |
+| **🔬 [MiniTransformer Lab](https://github.com/ParshawnH/MiniTransformer-Lab)** | Fine-tuned FinBERT vs. TF-IDF + LogReg baseline for financial sentiment — per-class error analysis and latency/throughput profiling on AMD Instinct MI300X (ROCm). | 🟢 `PASS` |
+| **📈 [TradeSocial Insights](https://www.tradesocialinsights.com/)** — live | Stock signal generation + narrative summaries, built on a **395,000+ prediction** evaluation pipeline with lag-classification. *(Code private — productized.)* | 🟢 `PASS` |
+| **🛒 [FBA Profit Scout](https://github.com/avirmani2024/Profit-Model)** — [live ↗](https://www.fba-scout.profitize.org/) | Matches wholesaler catalogs to Amazon listings across 1,469 SKUs, estimates fees & margins, flags the best buys. Co-built with [@avirmani2024](https://github.com/avirmani2024). | 🟢 `PASS` |
 
----
+<div align="center">
 
-## 💻 Tech Stack
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![R](https://img.shields.io/badge/r-276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/numpy-013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571.svg?style=for-the-badge&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A.svg?style=for-the-badge&logo=react&logoColor=61DAFB)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
-![Power BI](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=000000)
-![AWS](https://img.shields.io/badge/AWS-232F3E.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+`====== 5 passed, 0 hallucinated ======`
 
----
+</div>
 
-## 📊 GitHub Activity
+## `$ pip list`
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=ParshawnH&theme=merko&hide_border=false)](https://github.com/ParshawnH)
+<div align="center">
 
-![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=ParshawnH&theme=merko&hide_border=true&area=true)
+<img src="https://skillicons.dev/icons?i=python,r,pytorch,sklearn,fastapi,react,postgres,aws&theme=dark" alt="Python, R, PyTorch, scikit-learn, FastAPI, React, PostgreSQL, AWS"/>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ParshawnH&theme=merko&hide_border=false&layout=compact&langs_count=8)
+`pandas` · `numpy` · `plotly` · `power bi` · `selenium` · `asyncio` · `sentence-transformers`
+
+</div>
+
+## `$ git log --stat`
+
+<div align="center">
+
+<img height="170" src="https://streak-stats.demolab.com/?user=ParshawnH&hide_border=true&background=0B1320&stroke=1F2A3D&ring=FFB454&fire=FFB454&currStreakNum=E6EDF3&currStreakLabel=39D3BB&sideNums=E6EDF3&sideLabels=8FA3BC&dates=5B6B82" alt="GitHub streak"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ParshawnH&layout=compact&langs_count=8&hide_border=true&bg_color=0B1320&title_color=FFB454&text_color=C8D3E0" alt="Top languages"/>
+
+<img width="92%" src="https://github-readme-activity-graph.vercel.app/graph?username=ParshawnH&bg_color=0B1320&color=8FA3BC&line=39D3BB&point=FFB454&area=true&area_color=39D3BB&hide_border=true" alt="Contribution graph"/>
+
+</div>
+
+## `$ curl -X POST /v1/messages`
+
+Open to **Summer 2027 internships**, **research collaborations**, and conversations about LLM evaluation, quant finance, or why your RAG pipeline is hallucinating.
+
+<div align="center">
+
+**[📬 haynes84@purdue.edu](mailto:haynes84@purdue.edu)** · **[🔗 LinkedIn](https://www.linkedin.com/in/parshawn-haynes-b79b8a31b/)**
+
+<br/>
+
+<sub>`$ exit 0` — thanks for stopping by 👋</sub>
+
+</div>
