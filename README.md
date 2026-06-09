@@ -10,19 +10,11 @@
 
 </div>
 
-## `$ cat MODEL_CARD.md`
+## `$ cat ABOUT.md`
 
-> I spend my time evaluating models — so here's my own model card.
+Hi, I'm **Parshawn Haynes** — a junior at **Purdue University** double majoring in **Data Science and Applied Statistics** with a minor in AI/ML (graduating May 2028). I'm interested in **quant finance**, **data science**, and **AI** — I build and evaluate AI systems, with a focus on LLM evaluation, benchmarks, and eval harnesses for agentic pipelines.
 
-|                  |                                                                                                        |
-| ---------------- | ------------------------------------------------------------------------------------------------------ |
-| **Model**        | `parshawn-haynes` · junior build · stable release **May 2028**                                          |
-| **Architecture** | Data Science × Applied Statistics double major, AI/ML fine-tune — **Purdue University**                 |
-| **Currently**    | GenAI Engineer Intern @ **Protiviti** · **AI4ALL Ignite** Research Fellow · Data Mine Fellow            |
-| **Specialty**    | **LLM evaluation** — benchmarks, hallucination detection, eval harnesses for agentic systems            |
-| **Training data**| SEC 10-K filings · 395K+ market predictions · K-12 handwriting OCR · vehicle telematics · poker tables  |
-| **Known behaviors** | chess, poker, national debate (🇬🇩 Grenada), Diamond in Rocket League                                |
-| **Intended use** | AI for finance · evaluation research · data engineering · compliance tooling                            |
+Right now I'm a **Generative AI Engineer Intern at Robert Half**.
 
 ## `$ python -m evals run --all`
 
