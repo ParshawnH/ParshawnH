@@ -13,7 +13,7 @@ Live: https://analystmate.ai/ • Repo: https://github.com/avirmani2024/analystm
 Production retrieval-augmented system that extracts and summarizes risk and compliance insights from SEC filings, with citation grounding and hallucination mitigation to speed due diligence. Built with [@avirmani2024](https://github.com/avirmani2024).
 **🔬 MiniTransformer Lab** — Financial NLP Transformer Benchmarking
 Repo: https://github.com/ParshawnH/MiniTransformer-Lab
-Fine-tunes FinBERT against a TF-IDF + Logistic Regression baseline for financial sentiment classification, with a full evaluation suite: accuracy/macro-F1, per-class error analysis, and latency/throughput benchmarks. Built and benchmarked on **AMD Instinct MI300X** GPUs (ROCm) through the **AMD AI Developer Program**.
+Benchmarks a fine-tuned FinBERT against a TF-IDF + Logistic Regression baseline for financial sentiment, with per-class error analysis and latency/throughput profiling. Built on AMD Instinct MI300X GPUs (ROCm) via the AMD AI Developer Program.
 **📈 TradeSocial Insights** — AI Stock Prediction Platform
 Live: https://www.tradesocialinsights.com/
 Signal generation and narrative summaries from social and market data, built on a 395,000+ prediction evaluation pipeline. *(Code private due to productization.)*
