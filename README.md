@@ -3,7 +3,9 @@ Hi, I'm **Parshawn Haynes** — a **junior** at **Purdue University** pursuing a
 - 🔎 Seeking **Summer 2026** data science / ML / quant internships
 - 🎯 Interests: AI for finance, LLM evaluation, data engineering, compliance tooling
 - 🧠 Founding team member at **ACS** — AI product & evaluation
+
 ---
+
 ## 🧪 Featured Projects
 
 **🤖 RecruiterFit AI** — Hybrid Resume-to-Job Fit Scorer<br>
@@ -25,11 +27,15 @@ Signal generation and narrative summaries from social and market data, built on 
 **🛒 FBA Profit Scout** — Wholesale-to-Amazon Matching & Profit Calculator<br>
 Live: https://www.fba-scout.profitize.org/ • Repo: https://github.com/avirmani2024/Profit-Model<br>
 Automates matching wholesaler catalogs to Amazon listings, estimates fees and margins, and flags the best SKUs. Built with [@avirmani2024](https://github.com/avirmani2024).
+
 ---
+
 ## 🌐 Socials
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/parshawn-haynes-b79b8a31b/)
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:parshawnhaynes@gmail.com)
+[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:haynes84@purdue.edu)
+
 ---
+
 ## 💻 Tech Stack
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![R](https://img.shields.io/badge/r-276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
@@ -43,8 +49,13 @@ Automates matching wholesaler catalogs to Amazon listings, estimates fees and ma
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
 ![Power BI](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=000000)
 ![AWS](https://img.shields.io/badge/AWS-232F3E.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+
 ---
-## 📊 GitHub Stats
-![](https://github-readme-stats.vercel.app/api?username=ParshawnH&theme=merko&hide_border=false&show_icons=true&count_private=true)
-<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=ParshawnH&theme=merko&hide_border=false&layout=compact&langs_count=8)
+
+## 📊 GitHub Activity
+
+[![GitHub Streak](https://streak-stats.demolab.com/?user=ParshawnH&theme=merko&hide_border=false)](https://github.com/ParshawnH)
+
+![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=ParshawnH&theme=merko&hide_border=true&area=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ParshawnH&theme=merko&hide_border=false&layout=compact&langs_count=8)
