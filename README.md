@@ -18,7 +18,7 @@ Right now I'm a **Generative AI Engineer Intern at Robert Half**.
 
 ## `$ python -m evals run --all`
 
-| Eval | Task | Verdict |
+| Project | Description | Status |
 | --- | --- | :---: |
 | **🧠 [AnalystMate AI](https://github.com/avirmani2024/analystmate)** — [live ↗](https://analystmate.ai/) | Agentic SEC 10-K analysis: chunked map-reduce summarization over full filings with citation grounding + hallucination mitigation, async pipeline on the OpenAI API. Co-built with [@avirmani2024](https://github.com/avirmani2024). | 🟢 `PASS` |
 | **🤖 [RecruiterFit AI](https://github.com/ParshawnH/recruiterfitAI)** | Hybrid resume↔JD fit scoring: TF-IDF keyword overlap (30%) ensembled with `all-MiniLM-L6-v2` embeddings (70%), validated in an eval notebook. FastAPI + React. | 🟢 `PASS` |
